@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="img\image_3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\image_3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
