@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.Background>
-            <ImageBrush/>
+            <ImageBrush ImageSource="/img/image_3.jpg"/>
         </Grid.Background>
 
         <Button Content="Button" HorizontalAlignment="Left" Margin="155,175,0,0" VerticalAlignment="Top" Height="42" Width="86" Click="Button_Click"/>
